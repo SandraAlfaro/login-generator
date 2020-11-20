@@ -1,0 +1,4 @@
+*.class
+Login-Generator.iml
+target/
+.idea/
