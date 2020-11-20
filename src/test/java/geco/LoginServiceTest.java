@@ -18,7 +18,7 @@ public class LoginServiceTest {
     @Test
     public void testLoginExists() {
         LoginService loginList = new LoginService(new String[]{"TestExists"});
-        assertTrue("The login list should contain a login named 'TestExists ", loginList.loginExists("TestExists"));
+        assertTrue("The login list should contain a login named 'TestExists'", loginList.loginExists("TestExists"));
     }
 
     @Test
