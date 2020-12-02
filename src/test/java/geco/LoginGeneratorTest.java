@@ -37,4 +37,12 @@ public class LoginGeneratorTest {
         LoginGenerator loginGenerator = new LoginGenerator(loginService);
         assertEquals("The login 'TDUR' was generated and added correctly ","TDUR",loginGenerator.generateLoginForNomAndPrenom("Dùrand","Tom"));
     }
+
+    @Test
+    public void testGenerateLoginForNomAndPrenom_CT5() {
+        LoginGenerator loginGenerator = new LoginGenerator(loginService);
+        assertEquals("The login 'PDU' was generated and added correctly ","PDU",loginGenerator.generateLoginForNomAndPrenom("Du","Paul"));
+    }
+
+
 }
